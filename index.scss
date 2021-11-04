@@ -1,29 +1,17 @@
+@import "variables";
 
-// themes colors
-$primary: #326dee;
-$secondary: #1ac888;
-$error: #d32752;
-$info: #f6c31c;
-
-//spacing 
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
-
-//borders
-$base-border-thickness: 1px;
-$base-border-radius: 20px;
 
 h1{
     color: $primary;
     margin-top: $base-padding;
 }
 a{
-    color: $secondary;
+    color: $secondary; 
 }
 button{
     color: white;
     border: 0;
-    border-radius: $base-border-radius;
+    border-radius: $base-border-radius; 
     padding: $base-padding;
     background-color: $primary;
 }
